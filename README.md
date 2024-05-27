@@ -1,11 +1,20 @@
-# Project README
+# User Information
 
-## Description
+- **Name:** Theodore Abbey
+- **ID:** 11343393
+
+
+# Prerequisite
+- Node.js
+- npm or Yarn
+- Expo CLI
+
+# Description
 This project contains a React Native application with a simple interface displaying a text component. The text component displays the phrase "My name is YourName", where "YourName" is replaced with the user's name Theodore Abbey. Additionally, the background color of the app is customized to the colour light Black.
 
-## Instructions
+# Instructions:
 
-### Editing App.js
+## Editing App.js
 In the `App.js` file in my project, you can make the following changes:
 
 1. **Change the background color of the View component:** Open `App.js` and locate the `container` style within the `styles` constant. Modify the `backgroundColor` property to change the background color of the View component.
@@ -16,12 +25,10 @@ In the `App.js` file in my project, you can make the following changes:
 
 4. **Make the name "YourName" bold:** Update the text inside the `<Text>` component to include your name and wrap it with a `<Text>` component. Within this nested `<Text>` component, apply the `fontWeight: 'bold'` style to make your name bold.
 
-#### Example
+## Example
 ```javascript
 <Text style={styles.text}>My name is <Text style={{fontWeight: 'bold'}}>Theodore Abbey</Text></Text>
+```
 
-
-# User Information
-
-- **Name:** Theodore Abbey
-- **ID:** 11343393
+## Screenshot
+<img src="DCIT assignment2.jpg" alt="App Screenshot" width="250" height="400" >
